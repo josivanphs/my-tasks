@@ -22,7 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6968B04C28EEB51600CFF6B4 /* appdesk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appdesk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6968B04C28EEB51600CFF6B4 /* My Tasks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Tasks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6968B04F28EEB51600CFF6B4 /* appdeskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appdeskApp.swift; sourceTree = "<group>"; };
 		6968B05128EEB51600CFF6B4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6968B05328EEB51800CFF6B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -59,7 +59,7 @@
 		6968B04D28EEB51600CFF6B4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6968B04C28EEB51600CFF6B4 /* appdesk.app */,
+				6968B04C28EEB51600CFF6B4 /* My Tasks.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -127,7 +127,7 @@
 				6968B06A28EF190900CFF6B4 /* RealmSwift */,
 			);
 			productName = appdesk;
-			productReference = 6968B04C28EEB51600CFF6B4 /* appdesk.app */;
+			productReference = 6968B04C28EEB51600CFF6B4 /* My Tasks.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -316,6 +316,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"appdesk/Preview Content\"";
@@ -332,8 +333,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = josivan.appdesk;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = josivan.mytasks;
+				PRODUCT_NAME = "My Tasks";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -345,6 +346,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"appdesk/Preview Content\"";
@@ -361,8 +363,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = josivan.appdesk;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = josivan.mytasks;
+				PRODUCT_NAME = "My Tasks";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -398,7 +400,7 @@
 			repositoryURL = "https://github.com/realm/realm-cocoa.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 10.10.0;
+				minimumVersion = 10.31.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
